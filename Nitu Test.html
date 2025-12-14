@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Transformation</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, lavender, lightblue);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .myDiv {
+            text-align: center;
+        }
+        img {
+            width: 10%;
+        }
+        h1 {
+            font-size: 25px;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            padding: 0 30px;
+            text-decoration: none;
+            color: #333;
+        }
+        .card-container {
+            display: flex;
+            justify-content: space-between; /* Distributes space between cards */
+            overflow-x: auto; /* Allows horizontal scrolling if needed */
+            margin: 0 -15px; /* Adjusts for card margins */
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 15px;
+            padding: 20px;
+            width: 300px; /* Fixed width for cards */
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h3 {
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .card p {
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta a {
+            font-size: 20px;
+            background-color: red;
+            padding: 15px 35px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        /* Header colors */
+        .header-solutions {
+            background-color: #4caf50; /* Green */
+        }
+        .header-features {
+            background-color: #2196F3; /* Blue */
+        }
+        .header-partnership {
+            background-color: #ff9800; /* Orange */
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="myDiv">
+        <img src="test1.logo.png" alt="Logo">
+        <h1>Partner for your IT transformation</h1>
+    </div>
+</div>
+
+<nav>
+    <a href="home">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Services</a>
+</nav>
+
+<div class="card-container">
+    <div class="card">
+        <h3 class="header-solutions">Data Center Solutions</h3>
+        <p>We proudly partner with the largest data center players, bringing their industry-leading infrastructure and expertise to your business. This partnership allows us to deliver best-in-class data center solutions with unparalleled reliability, scalability, and security.</p>
+    </div>
+
+    <div class="card">
+        <h3 class="header-features">Key Features of Our Data Center Partnership:</h3>
+        <p>World-Class Facilities: Access to cutting-edge, Tier III & Tier IV data centers offering high availability and redundancy.<br><br>
+           Global Network: A wide-reaching network of data centers, ensuring your business has a strong presence in key markets.<br><br>
+           Future-Ready Infrastructure: Leverage the latest innovations in data center design, including modular deployments, energy-efficient cooling, and advanced security.</p>
+    </div>
+
+    <div class="card">
+        <h3 class="header-partnership">Why Our Partnership Matters</h3>
+        <p>Reliability: Our alliance with a leading data center provider ensures 99.99% uptime with robust failover systems.<br><br>
+           Advanced Security: Benefit from multi-layered security protocols and real-time threat detection.<br><br>
+           Expertise at Scale: Access to expert teams and extensive resources that can handle the most demanding enterprise workloads.</p>
+    </div>
+</div>
+
+
+
+<div class="cta">
+    <a href="https://www.google.com/">Read more</a>
+</div>
+
+<hr>
+
+</body>
+</html>
